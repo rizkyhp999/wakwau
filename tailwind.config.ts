@@ -15,7 +15,7 @@ const config: Config = {
       },
       colors: {
         primer: "#0081BF",
-        sekunder: "FFD700", // Ganti dengan kode warna primer Anda
+        sekunder: "#FFD700", // Ganti dengan kode warna primer Anda
       },
     },
   },
