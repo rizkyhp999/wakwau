@@ -1,10 +1,9 @@
 import React from "react";
-import Navbar from "@/components/navbar";
+
 export default function peta() {
   return (
     <div>
-      <Navbar></Navbar>
-      <svg
+      {/* <svg
         version="1.1"
         id="Ebene_1"
         xmlns="http://www.w3.org/2000/svg"
@@ -8347,7 +8346,7 @@ export default function peta() {
  l6.793,0.955l5.655,0.861l2.244,0.239"
         />
         ;
-      </svg>
+      </svg> */}
     </div>
   );
 }
