@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function peta() {
+export default function Peta() {
   return (
     <div>
       {/* <svg
