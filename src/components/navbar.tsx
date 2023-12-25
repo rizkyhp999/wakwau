@@ -13,12 +13,12 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="bg-primer fixed h-[60px] top-0 left-0 w-full flex items-center z-10 lg:px-[100px] ">
+      <header className="bg-primer fixed h-[70px] top-0 left-0 w-full flex items-center z-10 lg:px-[100px] ">
         <div className="container mx-auto">
           <div className="flex items-center justify-between relative">
             <div className="px-4">
               <Link href="/" className="block">
-                Home
+                <img src="/logo.png" alt="" className="size-5/6" />
               </Link>
             </div>
             <div className="flex items-center px-4">
@@ -29,37 +29,45 @@ export default function Navbar() {
                 type="button"
                 onClick={handleHamburger}
               >
-                <span className="w-[30px] h-[2px] my-2 block bg-black transition duration-300 ease-in-out origin-top-left"></span>
-                <span className="w-[30px] h-[2px] my-2 block bg-black transition duration-300 ease-in-out"></span>
-                <span className="w-[30px] h-[2px] my-2 block bg-black transition duration-300 ease-in-out origin-bottom-left"></span>
+                <span className="w-[30px] h-[3px] my-2 block bg-white transition duration-300 ease-in-out origin-top-left"></span>
+                <span className="w-[30px] h-[3px] my-2 block bg-white transition duration-300 ease-in-out"></span>
+                <span className="w-[30px] h-[3px] my-2 block bg-white transition duration-300 ease-in-out origin-bottom-left"></span>
               </button>
               <nav
                 id="nav-menu"
-                className="hidden absolute bg-white py-5 shadow-lg rounded-lg max-w-[250px] w-full right-4  top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+                className="hidden absolute bg-primer py-5 shadow-lg rounded-lg max-w-[250px] w-full right-4  top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
               >
                 <ul className="block lg:flex ">
-                  <li className="group lg:pl-[40px]">
+                  <li className="group pl-4 lg:pl-[40px]">
                     <Link
                       href="/"
-                      className="py-2  flex text-justify text-white text-xl font-bold  leading-relaxed"
+                      className="py-2  flex text-justify text-white text-lg font-bold  leading-relaxed"
                     >
                       Beranda
                     </Link>
                   </li>
-                  <li className="group lg:pl-[40px]">
+                  <li className="group pl-4  lg:pl-[40px]">
                     <Link
                       href="/peta"
-                      className="py-2 flex text-justify text-white text-xl font-bold  leading-relaxed"
+                      className="py-2 flex text-justify text-white text-lg font-bold  leading-relaxed"
                     >
                       Peta Status
                     </Link>
                   </li>
-                  <li className="group lg:pl-[40px]">
+                  <li className="group pl-4  lg:pl-[40px]">
                     <Link
                       href="/indikator"
-                      className="py-2 flex text-justify text-white text-xl font-bold  leading-relaxed"
+                      className="py-2 flex text-justify text-white text-lg font-bold  leading-relaxed"
                     >
                       Indikator
+                    </Link>
+                  </li>
+                  <li className="group pl-4  lg:pl-[40px]">
+                    <Link
+                      href="/tentangkami"
+                      className="py-2 flex text-justify text-white text-lg font-bold  leading-relaxed"
+                    >
+                      Tentang kami
                     </Link>
                   </li>
                 </ul>
