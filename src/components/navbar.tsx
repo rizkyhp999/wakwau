@@ -18,7 +18,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between relative">
             <div className="px-4">
               <Link href="/" className="block">
-                <img src="/logo.png" alt="" className="size-5/6" />
+                <img src="/Logo.png" alt="" className="size-5/6" />
               </Link>
             </div>
             <div className="flex items-center px-4">
