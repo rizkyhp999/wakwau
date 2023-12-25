@@ -20,21 +20,24 @@ export default function footer() {
               Pos-el badan.bahasa[at]kemdikbud.go.id
             </div>
           </div>
-          <div className="mt-12 lg:mt-0">
+          <div className="mt-12 lg:mt-0 ">
             <div className="text-justify text-white text-xl font-bold  leading-6 ">
               Media Sosial
             </div>
-            <div className="flex items-center text-white text-base font-semibold leading-9 mt-4">
+            <div className="flex items-center text-white hover:text-sekunder text-base font-semibold leading-9 mt-4">
               <img
                 src="/icon/Instagram.svg"
                 alt="Instagram Icon"
-                className="mr-2 w-4 h-4"
+                className="mr-2 w-4 h-4 "
               />
-              <a href="https://www.instagram.com/badanbahasakemendikbud/">
+              <a
+                href="https://www.instagram.com/badanbahasakemendikbud/"
+                className=""
+              >
                 @badanbahasakemendikbud
               </a>
             </div>
-            <div className="flex items-center text-white text-base font-semibold leading-9">
+            <div className="flex items-center text-white hover:text-sekunder text-base font-semibold leading-9">
               <img
                 src="/icon/Twitter.svg"
                 alt="Twitter Icon"
@@ -42,7 +45,7 @@ export default function footer() {
               />
               <a href="https://twitter.com/BadanBahasa">@BadanBahasa</a>
             </div>
-            <div className="flex items-center text-white text-base font-semibold leading-9">
+            <div className="flex items-center text-white hover:text-sekunder text-base font-semibold leading-9">
               <img
                 src="/icon/Facebook.svg"
                 alt="Facebook Icon"
@@ -52,7 +55,7 @@ export default function footer() {
                 Badan Pengembangan dan Pembinaan Bahasa
               </a>
             </div>
-            <div className="flex items-center text-white text-base font-semibold leading-9">
+            <div className="flex items-center text-white hover:text-sekunder text-base font-semibold leading-9">
               <img
                 src="/icon/Youtube.svg"
                 alt="Youtube Icon"
