@@ -14,7 +14,12 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="bg-primer fixed h-[70px] top-0 left-0 w-full flex items-center z-10 lg:px-[100px] ">
+      <motion.header
+        className="bg-primer fixed h-[70px] top-0 left-0 w-full flex items-center z-10 lg:px-[100px] "
+        initial={{ y: -100 }}
+        animate={{ y: 0 }}
+        transition={{ type: "tween" }}
+      >
         <div className="container mx-auto">
           <div className="flex items-center justify-between relative">
             <div className="px-4">
@@ -45,8 +50,12 @@ export default function Navbar() {
                       className="py-2  flex text-justify text-white text-lg font-bold  leading-relaxed"
                     >
                       <motion.h1
-                        animate={{}}
-                        whileHover={{ scale: 1.5, color: "#FFD700" }}
+                        animate={{ type: "spring" }}
+                        whileHover={{
+                          scale: 1.1,
+                          color: "#FFD700",
+                        }}
+                        transition={{ type: "spring", stiffness: 120 }}
                       >
                         Beranda
                       </motion.h1>
@@ -59,7 +68,7 @@ export default function Navbar() {
                     >
                       <motion.h1
                         animate={{}}
-                        whileHover={{ scale: 1.5, color: "#FFD700" }}
+                        whileHover={{ scale: 1.1, color: "#FFD700" }}
                       >
                         Peta Status
                       </motion.h1>
@@ -86,7 +95,7 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-      </header>
+      </motion.header>
     </>
   );
 }
