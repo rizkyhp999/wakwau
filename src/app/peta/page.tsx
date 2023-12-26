@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Peta() {
   return (
-    <div>
+    <div className="container mx-auto mt-[100px]">
       {/* <svg
+        className="container mx-auto mt-10"
         version="1.1"
-        id="Ebene_1"
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"

@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { motion, useAnimation } from "framer-motion";
 export default function Navbar() {
   const handleHamburger = () => {
     const hamburger = document.querySelector("#hamburger");
@@ -44,12 +43,7 @@ export default function Navbar() {
                       href="/"
                       className="py-2  flex text-justify text-white text-lg font-bold  leading-relaxed"
                     >
-                      <motion.h1
-                        animate={{}}
-                        whileHover={{ scale: 1.5, color: "#FFD700" }}
-                      >
-                        Beranda
-                      </motion.h1>
+                      Beranda
                     </Link>
                   </li>
                   <li className="group pl-4  lg:pl-[40px]">
@@ -57,12 +51,7 @@ export default function Navbar() {
                       href="/peta"
                       className="py-2 flex text-justify text-white text-lg font-bold  leading-relaxed"
                     >
-                      <motion.h1
-                        animate={{}}
-                        whileHover={{ scale: 1.5, color: "#FFD700" }}
-                      >
-                        Peta Status
-                      </motion.h1>
+                      Peta Status
                     </Link>
                   </li>
                   <li className="group pl-4  lg:pl-[40px]">
