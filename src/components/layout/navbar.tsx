@@ -15,7 +15,7 @@ export default function navbar() {
   return (
     <>
       <motion.header
-        className="bg-primer h-[70px] top-0 left-0 w-full flex items-center z-10 lg:px-[100px] "
+        className="bg-primer relative h-[70px] top-0 left-0 w-full flex items-center z-10 lg:px-[100px] "
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ type: "tween" }}
