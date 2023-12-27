@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-export default function Navbar() {
+import { motion, useAnimation } from "framer-motion";
+export default function navbar() {
   const handleHamburger = () => {
     const hamburger = document.querySelector("#hamburger");
     const nav = document.querySelector("#nav-menu");
@@ -13,8 +14,13 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="bg-primer fixed h-[70px] top-0 left-0 w-full flex items-center z-10 lg:px-[100px] ">
-        <div className="container mx-auto">
+      <motion.header
+        className="bg-primer h-[70px] top-0 left-0 w-full flex items-center z-10 lg:px-[100px] "
+        initial={{ y: -100 }}
+        animate={{ y: 0 }}
+        transition={{ type: "tween" }}
+      >
+        <div className="container mx-auto ">
           <div className="flex items-center justify-between relative">
             <div className="px-4">
               <Link href="/" className="block">
@@ -43,7 +49,17 @@ export default function Navbar() {
                       href="/"
                       className="py-2  flex text-justify text-white text-lg font-bold  leading-relaxed"
                     >
-                      Beranda
+                      <motion.h1
+                        animate={{ type: "spring" }}
+                        whileHover={{
+                          scale: 1.1,
+                          color: "#FFD700",
+                          textShadow: "0px 0px 21px #FFD700",
+                        }}
+                        transition={{ type: "spring", stiffness: 120 }}
+                      >
+                        Beranda
+                      </motion.h1>
                     </Link>
                   </li>
                   <li className="group pl-4  lg:pl-[40px]">
@@ -51,7 +67,12 @@ export default function Navbar() {
                       href="/peta"
                       className="py-2 flex text-justify text-white text-lg font-bold  leading-relaxed"
                     >
-                      Peta Status
+                      <motion.h1
+                        animate={{}}
+                        whileHover={{ scale: 1.1, color: "#FFD700" }}
+                      >
+                        Peta Status
+                      </motion.h1>
                     </Link>
                   </li>
                   <li className="group pl-4  lg:pl-[40px]">
@@ -75,7 +96,7 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-      </header>
+      </motion.header>
     </>
   );
 }
