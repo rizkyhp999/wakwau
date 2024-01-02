@@ -16,9 +16,9 @@ export default function navbar() {
     <>
       <motion.header
         className="bg-primer relative h-[70px] top-0 left-0 w-full flex items-center z-10 lg:px-[100px] "
-        initial={{ y: -100 }}
-        animate={{ y: 0 }}
-        transition={{ type: "tween" }}
+        // // initial={{ y: -100 }}
+        // // animate={{ y: 0 }}
+        // transition={{ type: "tween" }}
       >
         <div className="container mx-auto ">
           <div className="flex items-center justify-between relative">
