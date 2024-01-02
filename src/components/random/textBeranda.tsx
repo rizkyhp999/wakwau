@@ -1,5 +1,5 @@
 import React from "react";
-import { Animasi } from "@/components/random/animasi";
+// import { Animasi } from "@/components/random/animasi";
 
 export default function () {
   return (
