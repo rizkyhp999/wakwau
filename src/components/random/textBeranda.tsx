@@ -1,7 +1,6 @@
 import React from "react";
-// import { Animasi } from "@/components/random/animasi";
 
-export default function () {
+export default function textBeranda() {
   return (
     <div className="bg-primer relative block overflow-hidden ">
       <h1 className="text-white text-lg text-justify font-bold">
