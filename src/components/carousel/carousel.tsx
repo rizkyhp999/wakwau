@@ -4,7 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 export default function carousel() {
   return (
     <>
-      <motion.div className="conteiner flex flex-wrap lg:flex-nowrap items-center justify-center">
+      <motion.div className="flex flex-wrap lg:flex-nowrap items-center justify-center">
         {/* <motion.div
           initial={{ x: -2000 }}
           animate={{ x: 0 }}
@@ -17,14 +17,14 @@ export default function carousel() {
           transition={{ type: "tween", duration: 1 }}
           src="/carousel/1.png"
           alt=""
-          className="container relative lg:w-1/2 lg:h-auto lg:static flex justify-center blur-sm lg:blur-0"
+          className="relative lg:w-1/2 lg:h-auto lg:static flex justify-center blur-sm lg:blur-0"
         />
 
         <motion.div
           initial={{ x: 2000 }}
           animate={{ x: 0 }}
           transition={{ type: "tween", duration: 1 }}
-          className="container absolute inset-x-0 m-auto flex flex-wrap items-center justify-center lg:static  lg:my-auto"
+          className=" absolute inset-x-0 m-auto flex flex-wrap items-center justify-center lg:static  lg:my-auto"
         >
           <div className=" bg-white p-5 ">
             <h1 className="text-xs sm:text-lg md:text-xl lg:text-2xl font-bold ">
