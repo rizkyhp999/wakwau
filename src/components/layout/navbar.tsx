@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { motion, useAnimation } from "framer-motion";
+import { AnimasiNavbar, Animasi } from "@/components/animasi/animasi";
 export default function navbar() {
   const handleHamburger = () => {
     const hamburger = document.querySelector("#hamburger");
@@ -49,17 +50,9 @@ export default function navbar() {
                       href="/"
                       className="py-2  flex text-justify text-white text-lg font-bold  leading-relaxed"
                     >
-                      <motion.h1
-                        animate={{ type: "spring" }}
-                        whileHover={{
-                          scale: 1.1,
-                          color: "#FFD700",
-                          textShadow: "0px 0px 21px #FFD700",
-                        }}
-                        transition={{ type: "spring", stiffness: 120 }}
-                      >
-                        Beranda
-                      </motion.h1>
+                      <AnimasiNavbar>
+                        <h1>Beranda</h1>
+                      </AnimasiNavbar>
                     </Link>
                   </li>
                   <li className="group pl-4  lg:pl-[40px]">
@@ -67,28 +60,31 @@ export default function navbar() {
                       href="/peta"
                       className="py-2 flex text-justify text-white text-lg font-bold  leading-relaxed"
                     >
-                      <motion.h1
-                        animate={{}}
-                        whileHover={{ scale: 1.1, color: "#FFD700" }}
-                      >
-                        Peta Status
-                      </motion.h1>
+                      <AnimasiNavbar>
+                        <h1>Peta Status</h1>
+                      </AnimasiNavbar>
                     </Link>
                   </li>
+
                   <li className="group pl-4  lg:pl-[40px]">
                     <Link
                       href="/indikator"
                       className="py-2 flex text-justify text-white text-lg font-bold  leading-relaxed"
                     >
-                      Indikator
+                      <AnimasiNavbar>
+                        <h1>Indikator</h1>
+                      </AnimasiNavbar>
                     </Link>
                   </li>
+
                   <li className="group pl-4  lg:pl-[40px]">
                     <Link
                       href="/tentangkami"
                       className="py-2 flex text-justify text-white text-lg font-bold  leading-relaxed"
                     >
-                      Tentang kami
+                      <AnimasiNavbar>
+                        <h1>Tentang kami</h1>
+                      </AnimasiNavbar>
                     </Link>
                   </li>
                 </ul>
