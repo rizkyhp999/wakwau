@@ -1,9 +1,9 @@
 import React from "react";
-
+import { Animasi } from "@/components/animasi/animasi";
 export default function Peta() {
   return (
     <div className="container mx-auto mt-[100px]">
-      {/* <svg
+      <svg
         className="container mx-auto mt-10"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -8346,7 +8346,7 @@ export default function Peta() {
  l6.793,0.955l5.655,0.861l2.244,0.239"
         />
         ;
-      </svg> */}
+      </svg>
     </div>
   );
 }

@@ -1,9 +1,16 @@
+"use client";
 import React from "react";
-
+import { animate, motion, useAnimation, useInView } from "framer-motion";
 export default function textBeranda() {
   return (
     <div className="bg-primer relative block overflow-hidden ">
-      <h1 className="text-white text-lg text-justify font-bold">
+      {/* <div className=" absolute -top-[100px] right-0  aspect-w-1">
+        <img src="blob1.png" alt="" className="w-1/3 " />
+      </div> */}
+      {/* <img src="blob1.png" alt="" className=" w-1/3 absolute -top-[100px]" /> */}
+      {/* <img src="blob2.svg" alt=" " className="absolute w-1/5  " />
+      <img src="blob3.svg" alt="" className="absolute w-1/3 " /> */}
+      <h1 className="text-white text-lg text-justify font-bold mx-5 mt-8 md:text-2xl lg:text-4xl md:px-[50px] lg:px-[100px] md:mt-[25px] lg:pt-[50px]">
         Menurut UNESCO dalam{" "}
         <span className="text-sekunder">30 tahun terakhir</span>, 200 bahasa
         daerah di dunia <span className="text-sekunder">punah</span> . Di
@@ -13,13 +20,17 @@ export default function textBeranda() {
         <span className="text-sekunder">kritis</span>.
       </h1>
       <br />
-      <br />
-
-      <h1 className="text-white text-lg text-justify font-bold">
+      <h1 className="text-white text-lg text-justify font-bold mx-5 md:text-2xl lg:text-4xl md:px-[50px] lg:px-[100px]">
         Penyebab bahasa daerah <span className="text-sekunder">punah </span>
         adalah penutur jati yang tak lagi menggunakan dan mewariskan bahasanya
         ke generasi berikutnya.
       </h1>
+      <img src="bubblechatsm.svg" alt="" className="mx-auto w-3/4 md:hidden" />
+      <img
+        src="bubblechatlg.svg"
+        alt=""
+        className="mx-auto w-11/12 mt-10 hidden md:block"
+      />
     </div>
   );
 }

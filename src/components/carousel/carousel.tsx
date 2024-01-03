@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion, useAnimation } from "framer-motion";
-import { Animasi } from "@/components/random/animasi";
+import { Animasi } from "@/components/animasi/animasi";
 export default function carousel() {
   return (
     <>
