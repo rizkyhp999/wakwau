@@ -6,7 +6,7 @@ export const Peta = () => {
   return (
     <>
       <div className="">
-        <h1 className="text-center text-6xl">
+        <h1 className="text-center text-5xl font-bold m-10">
           {" "}
           Peta Status Daya Hidup Bahasa Daerah
         </h1>

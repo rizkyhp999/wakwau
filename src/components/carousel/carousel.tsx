@@ -2,6 +2,7 @@
 import React from "react";
 import { motion, useAnimation } from "framer-motion";
 import { Animasi } from "@/components/animasi/animasi";
+import Image from "next/image";
 export default function carousel() {
   return (
     <>
@@ -12,11 +13,18 @@ export default function carousel() {
           // transition={{ type: "tween", duration: 1 }}
           className="container relative lg:static lg:w-full flex justify-center"
         > */}
-        <motion.img
+        {/* <motion.img
           // initial={{ x: -2000 }}
           // animate={{ x: 0 }}
           // transition={{ type: "tween", duration: 1 }}
           src="/carousel/1.png"
+          alt=""
+          className="relative lg:w-1/2 lg:h-auto lg:static flex justify-center blur-sm lg:blur-0"
+        /> */}
+        <Image
+          src="/carousel/1.png"
+          width={500}
+          height={500}
           alt=""
           className="relative lg:w-1/2 lg:h-auto lg:static flex justify-center blur-sm lg:blur-0"
         />
