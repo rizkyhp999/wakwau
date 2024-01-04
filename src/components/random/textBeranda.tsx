@@ -13,7 +13,7 @@ export default function textBeranda() {
         {/* <img src="blob2.svg" alt=" " className="absolute w-1/5  " />
       <img src="blob3.svg" alt="" className="absolute w-1/3 " /> */}
         <Animasi>
-          <h1 className="text-white text-lg text-justify font-bold mx-5 mt-8 md:text-2xl lg:text-4xl md:px-[20px] lg:px-[20px] md:mt-[25px] lg:pt-[50px]">
+          <h1 className="text-white text-lg text-justify font-bold mx-5 mt-8 md:text-2xl lg:text-4xl md:px-[20px] lg:px-[50px] md:mt-[25px] lg:pt-[100px]">
             Menurut UNESCO dalam{" "}
             <span className="text-sekunder">30 tahun terakhir</span>, 200 bahasa
             daerah di dunia <span className="text-sekunder">punah</span>. Di
@@ -26,7 +26,7 @@ export default function textBeranda() {
         </Animasi>
         <br />
         <Animasi>
-          <h1 className="text-white text-lg text-justify font-bold mx-5 md:text-2xl lg:text-4xl md:px-[20px] lg:px-[20px]">
+          <h1 className="text-white text-lg text-justify font-bold mx-5 md:text-2xl lg:text-4xl md:px-[20px] lg:px-[50px]">
             Penyebab bahasa daerah <span className="text-sekunder">punah </span>
             adalah penutur jati yang tak lagi menggunakan dan mewariskan
             bahasanya ke generasi berikutnya.
