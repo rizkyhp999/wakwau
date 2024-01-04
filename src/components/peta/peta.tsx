@@ -1,17 +1,45 @@
 "use client";
 import React from "react";
 import { animate, motion, useAnimation, useInView } from "framer-motion";
+import { Animasi } from "@/components/animasi/animasi";
 
 export const Peta = () => {
   return (
     <>
-      <div className="">
-        <h1 className="text-center text-5xl font-bold m-10">
-          {" "}
+      <div className="container mx-auto ">
+        <h1 className="items-center text-3xl lg:text-5xl font-semibold my-10 text-center">
           Peta Status Daya Hidup Bahasa Daerah
         </h1>
+
+        <form>
+          <label
+            htmlFor="default-search"
+            className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+          >
+            Search
+          </label>
+
+          <div className="flex items-center justify-center">
+            {/* <label htmlFor="">Cari bahasa daerah</label> */}
+
+            <input
+              type="search"
+              id="default-search"
+              className="block w-1/2  p-4 ps-5 mr-5 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 dark:placeholder-gray-400 "
+              placeholder="Bahasa Daerah"
+              required
+            />
+            <button
+              type="submit"
+              className="text-white bg-primer hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2  dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Search
+            </button>
+          </div>
+        </form>
+
         <svg
-          className="container mx-auto mt-10"
+          className="container mx-auto "
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           x="0px"

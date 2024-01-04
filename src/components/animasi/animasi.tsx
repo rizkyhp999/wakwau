@@ -15,7 +15,6 @@ export const Animasi = ({ children, width = "fit-content" }: Props) => {
   const slideControls = useAnimation();
 
   useEffect(() => {
-    console.log(isInView);
     if (isInView) {
       mainControls.start("visible");
       slideControls.start("visible");
