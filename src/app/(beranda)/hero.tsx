@@ -1,8 +1,8 @@
+import React from "react";
 import Link from "next/link";
-
-export default function page() {
+export default function () {
   return (
-    <div className="flex items-center justify-center ">
+    <div className="container mx-auto">
       <div className="relative w-full h-[400px]">
         <img
           src=""
@@ -23,7 +23,7 @@ export default function page() {
           </div>
           <Link
             href="#"
-            className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white text-sm font-medium shadow-sm w-24 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+            className="inline-flex h-10 items-center justify-center rounded-md border  border-gray-200 bg-white text-sm font-medium shadow-sm w-24 transition-colors hover:bg-gray-100 hover:text-gray-900  dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
             prefetch={false}
           >
             Gabung!
