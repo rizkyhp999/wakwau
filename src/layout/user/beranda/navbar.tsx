@@ -4,16 +4,16 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react"; // Icon dari shadcn
 
 import { Button } from "@/components/ui/button"; // Import komponen button dari shadcn
-import { useTheme } from "next-themes"; // Untuk mengelola tema dari next-themes
-import { SunIcon, MoonIcon } from "lucide-react"; // Import ikon Sun dan Moon
+// import { useTheme } from "next-themes"; // Untuk mengelola tema dari next-themes
+// import { SunIcon, MoonIcon } from "lucide-react"; // Import ikon Sun dan Moon
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const { theme, setTheme } = useTheme(); // Akses tema saat ini dan fungsi untuk mengganti tema
+  // const { theme, setTheme } = useTheme(); // Akses tema saat ini dan fungsi untuk mengganti tema
 
-  const toggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light"); // Toggle antara light dan dark
-  };
+  // const toggleTheme = () => {
+  //   setTheme(theme === "light" ? "dark" : "light"); // Toggle antara light dan dark
+  // };
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
