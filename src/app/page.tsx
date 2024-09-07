@@ -1,7 +1,7 @@
 import React from "react";
 
-import Hero from "./hero";
-import Testimoni from "./testimoni";
+import Hero from "./(beranda)/hero";
+import Testimoni from "./(beranda)/testimoni";
 export default function page() {
   return (
     <div>
