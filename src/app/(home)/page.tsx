@@ -1,8 +1,8 @@
 import React from "react";
 
-import Hero from "./(beranda)/hero";
-import Alasan from "./(beranda)/alasan";
-import Testimoni from "./(beranda)/testimoni";
+import Hero from "./(landing)/hero";
+import Alasan from "./(landing)/alasan";
+import Testimoni from "./(landing)/testimoni";
 export default function page() {
   return (
     <div>

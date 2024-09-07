@@ -42,7 +42,7 @@ export default function Navbar() {
             </Link>
 
             <Button asChild>
-              <Link href="/login">Masuk</Link>
+              <Link href="/auth/login">Masuk</Link>
             </Button>
             {/* <Button variant="outline" size="icon" onClick={toggleTheme}>
               <SunIcon
@@ -62,7 +62,7 @@ export default function Navbar() {
           <div className="-mr-2 flex md:hidden">
             <div className="mr-2 flex md:hidden  items-center ">
               <Button asChild>
-                <Link href="/login">Masuk</Link>
+                <Link href="/auth/login">Masuk</Link>
               </Button>
             </div>
             <button
