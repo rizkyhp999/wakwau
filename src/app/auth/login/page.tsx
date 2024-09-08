@@ -53,7 +53,7 @@ export default function page() {
               Login
             </Button>
             <Button variant="outline" className="w-full">
-              Login with Google
+              <Link href="/dashboard">Login with Google</Link>
             </Button>
           </div>
           <div className="mt-4 text-center text-sm">
