@@ -24,21 +24,26 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
-              <h1 className="text-xl font-semibold text-gray-800">Brand</h1>
+              <h1 className="text-xl font-semibold text-gray-800">
+                Wakwau Tryout
+              </h1>
             </Link>
           </div>
           <div className="hidden md:flex space-x-8 items-center">
             <Link href="/">
-              <h1 className="text-gray-800 hover:text-blue-500">Home</h1>
+              <h1 className="text-gray-800 hover:text-blue-500">Beranda</h1>
             </Link>
-            <Link href="/about">
-              <h1 className="text-gray-800 hover:text-blue-500">About</h1>
+            <Link href="/materi">
+              <h1 className="text-gray-800 hover:text-blue-500">Materi</h1>
             </Link>
-            <Link href="/services">
-              <h1 className="text-gray-800 hover:text-blue-500">Services</h1>
+            <Link href="/dashboard">
+              <h1 className="text-gray-800 hover:text-blue-500">Tryout</h1>
             </Link>
-            <Link href="/contact">
-              <h1 className="text-gray-800 hover:text-blue-500">Contact</h1>
+            <Link href="/testimoni">
+              <h1 className="text-gray-800 hover:text-blue-500">Testimoni</h1>
+            </Link>
+            <Link href="/kontak">
+              <h1 className="text-gray-800 hover:text-blue-500">Kontak</h1>
             </Link>
 
             <Button asChild>
@@ -84,25 +89,29 @@ export default function Navbar() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link href="/">
               <h1 className="block text-gray-800 hover:bg-gray-100 px-3 py-2 rounded-md">
-                Home
+                Beranda
               </h1>
             </Link>
-            <Link href="/about">
+            <Link href="/materi">
               <h1 className="block text-gray-800 hover:bg-gray-100 px-3 py-2 rounded-md">
-                About
+                Materi
               </h1>
             </Link>
-            <Link href="/services">
+            <Link href="/dashboard">
               <h1 className="block text-gray-800 hover:bg-gray-100 px-3 py-2 rounded-md">
-                Services
+                Tryout
               </h1>
             </Link>
-            <Link href="/contact">
+            <Link href="/testimoni">
               <h1 className="block text-gray-800 hover:bg-gray-100 px-3 py-2 rounded-md">
-                Contact
+                Testimoni
               </h1>
             </Link>
-
+            <Link href="/kontak">
+              <h1 className="block text-gray-800 hover:bg-gray-100 px-3 py-2 rounded-md">
+                Kontak
+              </h1>
+            </Link>
             {/* <div className="px-3 py-2">
               <Button variant="outline" size="icon" onClick={toggleTheme}>
                 <SunIcon

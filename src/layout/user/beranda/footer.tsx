@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-muted text-muted-foreground py-8 sm:py-12">
+    <footer className=" bg-white shadow-md bg-muted text-muted-foreground py-8 sm:py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <div className="space-y-4">
           <h3 className="text-lg font-medium">Kontak</h3>

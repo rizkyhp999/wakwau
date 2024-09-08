@@ -47,7 +47,7 @@ const Testimonial: React.FC<TestimonialProps> = ({
 
 export default function testimoni() {
   return (
-    <div className="py-16 bg-gray-50">
+    <div className="py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">
           Apa Kata Mereka?

@@ -22,7 +22,7 @@ const ReasonCard: React.FC<ReasonCardProps> = ({ title, description }) => {
 };
 export default function alasan() {
   return (
-    <div className="py-16 bg-white">
+    <div className="py-16 ">
       {/* Section: Alasan Ikut Tryout */}
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">
