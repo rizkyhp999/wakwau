@@ -1,17 +1,17 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 export default function hero() {
   return (
     <div className="container mx-auto">
       <div className="relative w-full h-[400px]">
-        <Image
+        {/* <Image
           src="/hero.png"
           alt="Hero"
           layout="fill"
           objectFit="cover"
           className="absolute inset-0"
-        />
+        /> */}
         <div className="absolute inset-0 flex flex-col justify-center gap-4 p-4 md:gap-10">
           <div className="grid gap-4">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-gray-900 dark:text-gray-50">
