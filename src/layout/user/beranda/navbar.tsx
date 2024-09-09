@@ -24,9 +24,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
-              <h1 className="text-xl font-semibold text-gray-800">
-                Wakwau Tryout
-              </h1>
+              <h1 className="text-xl font-semibold text-gray-800">Wakwau</h1>
             </Link>
           </div>
           <div className="hidden md:flex space-x-8 items-center">
